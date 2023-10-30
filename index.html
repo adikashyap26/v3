@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>Vijetha</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/font-awesome5.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<!-- <link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" /> -->
+
+
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	
+	<style>
+		@media (max-width: 1199px) {
+			.flickity-button {
+				margin: -20px !important;
+			}
+	
+			.flickity-prev-next-button {
+				width: 30px;
+				height: 30px;
+				top: 53%;
+			}
+
+			.textCenter{
+				font-size: 16px !important;
+				padding: 0 30px;
+			}
+			img{
+				width: 100px;
+			}
+		}
+	
+		/* @media (max-width: 767px) {
+	
+			.textCenter {
+				width: auto !important;
+			}
+	
+		} */
+	
+		.flickity-button {
+			margin: 0 -80px;
+		}
+	
+		.textCenter {
+			/* width: 380px;
+			height: 150px; */
+			font-size: 22px;
+			text-align: center;
+		}
+	
+		.border {
+			border: none !important;
+			height: 300px;
+		}
+	
+		.imag {
+			width: 100px !important;
+		}
+	</style>
+	
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+						id="modal-search-input">
+				</div>
+				<button type="submit" class="btn">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<div id="team-form" class="ds modal">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 offset-md-3">
+					<div class="form-wrapper ls rounded">
+						<form class="contact-form" method="post" action="/">
+							<div class="row c-mb-20">
+								<div class="col-12 form-title text-center form-builder-item">
+									<div class="header title">
+										<h4><span class="thin">Contact</span> me</h4>
+									</div>
+								</div>
+							</div>
+							<div class="row c-mb-20">
+								<div class="col-sm-12">
+									<div class="form-group has-placeholder">
+										<label for="name333">Full Name <span class="required">*</span></label>
+										<input type="text" aria-required="true" size="30" value="" name="name"
+											id="name333" class="form-control" placeholder="Your name">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group has-placeholder">
+										<label for="phone35533">Email address<span class="required">*</span></label>
+										<input type="tel" aria-required="true" size="30" name="phone" id="phone35533"
+											class="form-control" placeholder="Phone Number">
+									</div>
+								</div>
+							</div>
+							<div class="row c-mb-20">
+								<div class="col-sm-12">
+									<div class="form-group has-placeholder">
+										<label for="message333">Message</label>
+										<textarea aria-required="true" rows="3" cols="45" name="message" id="message333"
+											class="form-control" placeholder="Message"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="row c-mb-20">
+								<div class="col-sm-12 mb-0 mt-10 text-center">
+									<div class="form-group">
+										<input class="btn btn-gradient" type="submit" value="Contact me">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls p-normal">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div><!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<!--topline section visible only on small screens|-->
+
+			<div class="header_absolute">
+                <!--eof topline-->
+                <!-- header with two Bootstrap columns - left for logo and right for navigation -->
+                <header class="page_header_side header_slide header-special header_side_right ds">
+ 
+                    <div class="scrollbar-macosx">
+                        <div class="side_header_inner">
+                            <p class="text-right mb-0 close-wrapper"><a href="javascript:void(0)">×</a></p>
+ 
+                            <div class="widget widget_recent_posts">
+ 
+                                <h3 class="widget-title">Our news</h3>
+                                <ul class="list-unstyled">
+                                    <li class="media">
+                                        <article
+                                            class="vertical-item  post type-post status-publish format-standard has-post-thumbnail">
+                                            <div class="item-content">
+                                                <div class="entry-header">
+                                                    <div class="entry-meta">
+                                                        <div class="byline">
+                                                            <span class="date">
+                                                                <a href="blog-@@type.html" rel="bookmark">
+                                                                    <time class="published entry-date"
+                                                                        datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+                                                                </a>
+                                                            </span>
+                                                            <span class="author vcard">
+                                                                <a class="url fn n" href="blog-@@type.html"
+                                                                    rel="author"><span>by</span> Admin</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="blog-single-@@type.html" rel="bookmark">
+                                                            Adipisicing elit sed do eiusmod
+                                                        </a>
+                                                    </h4>
+ 
+                                                    <!-- .entry-meta -->
+                                                </div>
+                                                <!-- .entry-header -->
+                                            </div><!-- .item-content -->
+                                        </article>
+                                    </li>
+                                    <li class="media">
+                                        <article
+                                            class="vertical-item  post type-post status-publish format-standard has-post-thumbnail">
+                                            <div class="item-content">
+                                                <div class="entry-header">
+                                                    <div class="entry-meta">
+                                                        <div class="byline">
+                                                            <span class="date">
+                                                                <a href="blog-@@type.html" rel="bookmark">
+                                                                    <time class="published entry-date"
+                                                                        datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+                                                                </a>
+                                                            </span>
+                                                            <span class="author vcard">
+                                                                <a class="url fn n" href="blog-@@type.html"
+                                                                    rel="author"><span>by</span> Admin</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="blog-single-@@type.html" rel="bookmark">
+                                                            Adipisicing elit sed do eiusmod
+                                                        </a>
+                                                    </h4>
+ 
+                                                    <!-- .entry-meta -->
+                                                </div>
+                                                <!-- .entry-header -->
+                                            </div><!-- .item-content -->
+                                        </article>
+                                    </li>
+                                    <li class="media">
+                                        <article
+                                            class="vertical-item  post type-post status-publish format-standard has-post-thumbnail">
+                                            <div class="item-content">
+                                                <div class="entry-header">
+                                                    <div class="entry-meta">
+                                                        <div class="byline">
+                                                            <span class="date">
+                                                                <a href="blog-@@type.html" rel="bookmark">
+                                                                    <time class="published entry-date"
+                                                                        datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+                                                                </a>
+                                                            </span>
+                                                            <span class="author vcard">
+                                                                <a class="url fn n" href="blog-@@type.html"
+                                                                    rel="author"><span>by</span> Admin</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="blog-single-@@type.html" rel="bookmark">
+                                                            Adipisicing elit sed do eiusmod
+                                                        </a>
+                                                    </h4>
+ 
+                                                    <!-- .entry-meta -->
+                                                </div>
+                                                <!-- .entry-header -->
+                                            </div><!-- .item-content -->
+                                        </article>
+                                    </li>
+ 
+                                </ul>
+                            </div>
+                            <div class="widget widget_about">
+                                <h3 class="widget-title">About</h3>
+                                <p>
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum. Sed ut perspiciatis unde.
+                                </p>
+                            </div>
+                            <div class="widget widget_mailchimp">
+                                <h3 class="widget-title">Newsletter</h3>
+ 
+                                <form class="signup" action="/">
+                                    <label for="mailchimp_email88d">
+                                        <span class="screen-reader-text">Subscribe:</span>
+                                    </label>
+                                    <input id="mailchimp_email88d" name="email" type="email"
+                                        class="form-control mailchimp_email has-placeholder" placeholder="Email">
+                                    <button type="submit" class="search-submit">
+                                        <span class="screen-reader-text">Subscribe</span>
+                                    </button>
+                                    <div class="response"></div>
+                                </form>
+                            </div>
+                            <div class="widget widget_social_icons">
+                                <a href="#" class="fab fa-facebook-f rounded-icon bg-icon fs-16" title="facebook"></a>
+                                <a href="#" class="fab fa-twitter rounded-icon bg-icon fs-16" title="telegram"></a>
+                                <a href="#" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
+                                <a href="#" class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+ 
+                <!-- <header class="page_header header-1 ds bg-transparent s-py-xl-20 s-py-10 "> -->
+                <header class="page_header header-1 ds  s-py-xl-5 s-py-10 dsp">
+ 
+                    <div class="container-fluid">
+ 
+                        <div class="row d-flex align-items-center justify-content-between">
+                            <div class="col-xl-3 col-md-12 col-12 text-center">
+                                <a href="./" class="logo">
+ 
+                                    <img src="images/logo-vijetha.svg" alt="">
+ 
+                                </a>
+                                <span class="toggle_menu toggle1"><span class="menucolor">menu</span></span>
+                            </div>
+                            <div class="col-xl-6 col-1 text-right">
+                                <!-- main nav start -->
+                                <nav class="top-nav">
+                                    <ul class="nav sf-menu">
+ 
+                                        <li>
+                                            <a>About</a>
+                                            <ul>
+                                                <li>
+                                                        <a href="about.html">Our Company</a>
+                                                </li>
+                                                <li>
+                                                    <a href="team.html">Testimonial</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+ 
+										<li>
+											<a>Product</a>
+											<ul>
+												<li>
+													<a href="./water-treatment-product.html">Water Treatment</a>
+
+												</li>
+												<li>
+													<a href="./sewage-treatment.html">Sewage Treatment</a>
+												</li>
+												<li>
+													<a href="effluent-treatment.html">Plate Heat Exchange</a>
+												</li>
+												<!-- <li>
+													<a href="./pharam.html">Shell & Tube Heat Exchangers</a>
+												</li> -->
+												<li>
+													<a href="./solid-waste-managment.html">Shell & Tube Heat
+														Exchangers</a>
+												</li>
+
+
+											</ul>
+										</li>
+                                        <li>
+                                            <a href="./services.html">Service</a>
+                                            <!-- eof mega menu -->
+                                        </li>
+ 
+                                        <li>
+                                            <a href="blog.html">Blog</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="gallery.html">Gallery</a>
+                                                </li>
+                                                <li>
+                                                    <a href="press-release.html">Press Release</a>
+                                                </li>
+                                               
+                                            </ul>
+                                        </li>
+ 
+                                        <!-- eof shop -->
+ 
+                                        <!-- contacts -->
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+ 
+                                        </li>
+                                        <li>
+                                            <a href="careers.html">Career</a>
+                                        </li>
+                                        <!-- eof contacts -->
+                                    </ul>
+ 
+ 
+                                </nav>
+                                <!-- eof main nav -->
+                            </div>
+                            <!-- <div class="col-xl-3 col-md-7 col-12  d-flex justify-content-md-end">
+                                <ul class="top-includes">
+                                    <li class="metaphone">
+                                        <a href="#">94484 95357</a>
+                                    </li>
+                                    <li class="special-menu">
+                                        <span class="toggle_menu toggle_menu_side header-slide toggle_menu_side_special"><span></span></span>
+                                    </li>
+                                </ul>
+ 
+ 
+                            </div> -->
+ 
+                        </div>
+ 
+                    </div>
+                    <!-- header toggler -->
+                    <span class="toggle_menu toggle"><span>menu</span></span>
+                </header>
+            </div>
+			<section class="page_slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li class="ds cover-image">
+							<img src="images/banner/Rectangle175.png" alt="img">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												<div class="intro_layer">
+													<!-- <h6 class="intro_before_featured_word">01. Providing for Today</h6> -->
+													<h2 class="text-capitalize intro_featured_word">
+														Sustainable Sewage Treatment Solutions </h2>
+													<a href="#" class="btn btn-outline-darkgrey big-btn">get a quote</a>
+													<!-- <span class="text-divider">or</span> -->
+													<!-- <a href="#" class="btn just-link">Request a Callback</a> -->
+												</div>
+											</div> <!-- eof .intro_layers -->
+										</div> <!-- eof .intro_layers_wrapper -->
+									</div> <!-- eof .col-* -->
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+						<li class="ds cover-image">
+							<img src="images/banner/Rectangle174.png" alt="img">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												<div class="intro_layer">
+													<!-- <h6 class="intro_before_featured_word">02. Innovations</h6> -->
+													<h2 class="text-capitalize intro_featured_word">
+														Vijetha's Advanced Sewage Cleaning Solutions
+													</h2>
+													<a href="#" class="btn btn-outline-darkgrey big-btn">get a quote</a>
+													<!-- <span class="text-divider">or</span> -->
+													<!-- <a href="#" class="btn just-link">Request a Callback</a> -->
+												</div>
+											</div> <!-- eof .intro_layers -->
+										</div> <!-- eof .intro_layers_wrapper -->
+									</div> <!-- eof .col-* -->
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+						<li class="ds cover-image">
+							<img src="images/banner/Rectangle176.png" alt="img">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												<div class="intro_layer">
+													<!-- <h6 class="intro_before_featured_word">03. Industry</h6> -->
+													<h2 class="text-capitalize intro_featured_word">
+														Customised Sewage Treatment by Vijetha
+													</h2>
+													<a href="#" class="btn btn-outline-darkgrey big-btn">get a quote</a>
+													<!-- <span class="text-divider">or</span>
+													<a href="#" class="btn just-link">Request a Callback</a> -->
+												</div>
+											</div> <!-- eof .intro_layers -->
+										</div> <!-- eof .intro_layers_wrapper -->
+									</div> <!-- eof .col-* -->
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+						<li class="ds cover-image">
+							<img src="images/banner/Rectangle177.png" alt="img">
+						</li>
+						<li class="ds cover-image">
+							<img src="images/banner/Rectangle176.png" alt="img">
+						</li>
+					</ul>
+				</div> <!-- eof flexslider -->
+			</section>
+
+			<section class="ds text-sm-left text-center container-px-0 c-gutter-0 index_home">
+				<div class="container-fluid">
+					<div class="row service-v2">
+						<div class="col-sm-6 col-md-4 col-xl-3">
+							<div class="icon-box service-single with-icon layout2 ds text-center">
+								<!-- <a class="link-icon" href="service-single.html">
+									<div class="icon-styled  fs-50">
+										<i class="ico ico-refinery"></i>
+									</div>
+								</a> -->
+								<a href="services.html">
+									<h5>
+										ANNUAL SERVICE CONTRACTS
+									</h5>
+								</a>
+
+								<p>An Extended Relationship with us for Providing a service.</p>
+								<a class="btn btn-outline-darkgrey" href="services.html">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-xl-3">
+							<div class="icon-box service-single with-icon layout2 ds text-center">
+								<!-- <a class="link-icon" href="service-single.html">
+									<div class="icon-styled  fs-50">
+										<i class="ico ico-tank"></i>
+									</div>
+								</a> -->
+								<a href="services.html">
+									<h5>
+										SERVICES ON<br> CALL
+									</h5>
+								</a>
+
+								<p>Our Engineers are ready to serve on an immediate basis if the Plant.</p>
+								<a class="btn btn-outline-darkgrey" href="services.html">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-xl-3">
+							<div class="icon-box service-single with-icon layout2 ds text-center">
+								<!-- <a class="link-icon" href="service-single.html">
+									<div class="icon-styled  fs-50">
+										<i class="ico ico-oil"></i>
+									</div>
+								</a> -->
+								<a href="services.html">
+									<h5>
+										OPERATION AND CONTRACTS
+									</h5>
+								</a>
+
+								<p>This is a total contract wherein we undertake complete responsibility.</p>
+								<a class="btn btn-outline-darkgrey" href="services.html">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-xl-3">
+							<div class="icon-box service-single with-icon layout2 ds text-center">
+								<!-- <a class="link-icon" href="service-single.html">
+									<div class="icon-styled  fs-50">
+										<i class="ico ico-extraction"></i>
+									</div>
+								</a> -->
+								<a href="services.html">
+									<h5>
+										RETROFIT AND REVAMPING
+									</h5>
+								</a>
+
+								<p>In Any case with Replacing the Parts of the Existing System.</p>
+								<a class="btn btn-outline-darkgrey" href="services.html">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</div>
+						</div>
+						<!-- <div class="col-sm-6 col-md-4 col-xl-2   ">
+							<div class="icon-box service-single with-icon layout2 ds text-center">
+								<a class="link-icon" href="service-single.html">
+									<div class="icon-styled  fs-50">
+										<i class="ico ico-oil-tanker"></i>
+									</div>
+								</a>
+								<a href="service-single.html">
+									<h5>
+										Oil Refinaery
+									</h5>
+								</a>
+
+								<p>Ullamco laboris nisi ut aliquip veniam exea</p>
+								<a class="btn btn-outline-darkgrey" href="service-single.html">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</div>
+						</div> -->
+						<!-- <div class="col-sm-6 col-md-4 col-xl-2   ">
+							<div class="icon-box service-single with-icon layout2 ds text-center">
+								<a class="link-icon" href="service-single.html">
+									<div class="icon-styled  fs-50">
+										<i class="ico ico-pipe"></i>
+									</div>
+								</a>
+								<a href="service-single.html">
+									<h5>
+										Factory
+									</h5>
+								</a>
+
+								<p>Commodo conquat duis aute irure dolor</p>
+								<a class="btn btn-outline-darkgrey" href="service-single.html">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</section>
+
+			<!-- <section class="ls main-testimonial s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-3 text-center">
+							<h2 class="special-heading text-center">
+								<span class="text-capitalize">
+									welcome!
+								</span>
+							</h2>
+							<div class="divider-30"></div>
+							<a class="btn btn-gradient big-btn" href="#">Our Little History</a>
+						</div>
+						<div class="col-12 col-lg-8">
+							<div class="divider-35 hidden-above-lg"></div>
+							<div class="divider--5"></div>
+							<p class="excerpt">
+								VIJETHA as a young company is involved in offering Sustainable Solutions in Environment for over a period of 14years We are catering to the Water and Waste Water Treatment requirement of various industrial and municipal segments with a wide spectrum of our products with the latest technology. We have more than 75 installations in large capacities and 500+ installations in small capacities. Today we serve more than 200+ Beloved Customers
+							</p>
+							<p class="excerpt">
+								A typical water treatment plant consists of the following sections:
+							<br> <br>	> Pre-treatment plant: It removes impurities that are likely to affect the performance of downstream units based on ion exchange and/or membrane. Impurities removed include suspended solids turbidity, colour, organic matter and heavy metals like iron and manganese
+							<br> <br>	> Post treatment plant: The plant conditions the treated water for the specific end use
+							<br> <br>	> Effluent treatment plant: Industrial effluent requires to be treated before it can be discharged into a public sewer or a receiving stream. Increasing shortage of fresh water is compelling industries to set up plants for recovery of water for reuse in the plant	
+							
+							</p>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+
+			<section class="ls s-py-xl-90 text-sm-left text-center s-py-lg-90 s-py-md-90 s-py-60 c-gutter-60">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-lg-6 col-12">
+							<div class="divider-30 hidden-above-lg"></div>
+							<img class="rounded little_history_img" src="images/about_us.png" height="auto" alt="">
+
+						</div>
+						<div class="col-lg-6 col-12 history_data">
+							<h2 class="special-heading text-sm-left text-center">
+								<span class="text-capitalize">
+									Our Little History
+								</span>
+							</h2>
+							<div class="divider-line bg-maincolor text-sm-left text-center"></div>
+							<div class="fw-divider-space divider-30"></div>
+							<p class="excerpt">
+								VIJETHA as a young company is involved in offering Sustainable Solutions in Environment
+								for over a period of 14years We are catering to the Water and Waste Water Treatment
+								requirement of various industrial and municipal segments with a wide spectrum of our
+								products with the latest technology. We have more than 75 installations in large
+								capacities and 500+ installations in small capacities. Today we serve more than 200+
+								Beloved Customers
+							</p>
+							<div class="divider-50 hidden-below-lg"></div>
+							<div class="divider-30 hidden-above-lg"></div>
+							<a class="btn btn-gradient big-btn" href="./about.html">know more ></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="ds container-px-xl-0">
+				<div class="container-fluid">
+					<div class="row">
+						<div
+							class="col-lg-3 col-12 px-xl-50 ds column-overlay d-flex flex-column align-items-center justify-content-center text-center column-video">
+							<div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60"></div>
+							<h2 class="special-heading text-center">
+								<span class="text-capitalize">
+									Learn Why to Choose Us?
+								</span>
+							</h2>
+							<div class="divider-30"></div>
+
+
+							<div class="divider-30"></div>
+							<p>
+								To be a leader in utility delivery services, committed to long term sustainability.
+							</p>
+							<div class="fw-divider-space divider-xl-135 divider-lg-95 divider-md-65 divider-35"></div>
+						</div>
+						<div class="col-lg-9 p-0 col-12">
+							<div class="step-gorizontal">
+								<div class="step">
+									<div class="step-number">
+										<h3>
+											01.
+										</h3>
+									</div>
+									<h6>
+										Demand Response
+									</h6>
+									<p>
+										We will be extremely service focused – predicting and fulfilling customer needs
+										and expectations. </p>
+								</div>
+								<div class="step">
+									<div class="step-number">
+										<h3>
+											02.
+										</h3>
+									</div>
+									<h6>
+										Components And Equipment
+									</h6>
+									<p>
+										We will harness best available technology, operational excellence and service
+										innovation to deliver utilities to our customers.
+									</p>
+								</div>
+								<div class="step">
+									<div class="step-number">
+										<h3>
+											03.
+										</h3>
+									</div>
+									<h6>
+										Result Oriented
+									</h6>
+									<p>
+										Our services will enable long term economic benefit to our customers.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="ls s-pt-xl-90 s-pt-lg-90 s-pt-md-90 s-pt-60 s-pb-xl-0 s-pb-lg-0 s-pb-md-0 s-pb-0">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h2 class="special-heading text-center">
+								<span class="text-capitalize">
+									Our Procedure
+								</span>
+							</h2>
+							<div class="divider-line bg-maincolor text-center"></div>
+							<div class="fw-divider-space divider-25"></div>
+							<p class="special-heading text-center">
+								<span>
+									How We Work?
+								</span>
+							</p>
+							<div class="divider-45 hidden-below-lg"></div>
+							<div class="divider-30 hidden-above-lg"></div>
+							<div class="steps-vertical">
+								
+								<div class="step-wrap">
+									<div class="step-wrap__text">
+										<h4>
+											Research & Analysis
+										</h4>
+										<p class="pweight">
+											Through rigorous research and comprehensive analysis, we delve into the
+											intricacies of local sewage composition and environmental regulations. Our
+											experts conduct thorough studies to identify the most effective treatment
+											technologies and sustainable practices. By staying abreast of the latest
+											innovations and industry trends, we ensure that our solutions are both
+											efficient and environmentally sound.
+										</p>
+									</div>
+									<div class="step-wrap__title">
+										<h3 class="color-main ">2</h3>
+									</div>
+
+									<div class="step-wrap__image">
+										<img src="images/steps/03.jpg" alt="">
+									</div>
+								</div>
+								<div class="step-wrap">
+									<div class="step-wrap__text">
+										<h4>
+											Project Planning
+										</h4>
+										<p class="pweight">
+											During the initial stages of our sewage treatment plant projects, we
+											meticulously plan every detail, considering factors like site suitability,
+											environmental impact, and capacity requirements. Our dedicated team assesses
+											the specific needs of the community and the local ecosystem, ensuring that
+											our solutions align with regulatory standards and future growth demands.
+									</div>
+									<div class="step-wrap__title">
+										<h3 class="color-main ">1</h3>
+									</div>
+
+									<div class="step-wrap__image">
+										<img src="images/steps/02.jpg" alt="">
+									</div>
+								</div>
+								<div class="step-wrap">
+									<div class="step-wrap__text">
+										<h4>
+											Treatment Process
+										</h4>
+										<p class="pweight">
+											Our sewage treatment process involves multiple stages, including primary,
+											secondary, and tertiary treatments. We employ advanced techniques such as
+											biological, physical, and chemical processes to remove contaminants, organic
+											matter, and pathogens from the sewage. Through our state-of-the-art
+											filtration and disinfection methods, we produce high-quality, treated water
+											that meets stringent regulatory standards, safeguarding public health and
+											the environment.
+										</p>
+									</div>
+									<div class="step-wrap__title">
+										<h3 class="color-main">3</h3>
+									</div>
+
+									<div class="step-wrap__image">
+										<img src="images/steps/04.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="testimonials" class=" ds s-overlay s-parallax s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60">
+				<div class="container ">
+					<div class="row ">
+						<div class="col-12">
+							<h2 class="special-heading text-center">
+								<span class="text-capitalize">
+									Testimonials
+								</span>
+							</h2>
+							<!-- <h4>We are trusted over 12+ Countries across the
+								World ----Their Testimonials.</h4> -->
+							<div class="fw-divider-space divider-50"></div>
+
+							<div class="row ">
+								<div class="col-12 main ">
+									<div class="carousel"
+										data-flickity='{"autoplay": true,  "wrapAround": true, "pageDots": false, "prevNextButtons": true} '>
+										<!-- <div class="slider slide-show my-5"> -->
+											<div class="border">
+												<p class="col-12 textCenter">
+													We Strongly recommend M/s. Vijetha as excellent service provider to
+													carry out the job too solve any complicated water treatment
+													solutions
+												</p>
+												<div class="textCenter text-center">
+													<div>
+														<div
+															class="quote-image d-flex justify-content-center align-items-center">
+															<img class="imag" src="./images/vijeth/c8.png" alt="">
+														</div>
+														<span class="quote-name">Hangyo Ice Cream Pvt LTD</span>
+													</div>
+	
+												</div>
+											</div>
+
+											<div class="border">
+												<p class="col-12 textCenter">
+													We Extremely happy regarding product, Project execution and annual
+													service contract offered by M/s Vijitha
+												</p>
+												<div class="textCenter text-center">
+													<div>
+														<div
+															class="quote-image d-flex justify-content-center align-items-center">
+															<img class="imag" src="./images/vijeth/bellary.png" alt="">
+														</div>
+													</div>
+													<span class="quote-name">Bellary Oxygen Co Pvt LTD</span>
+												</div>
+											</div>
+	
+	
+											<div class="border">
+												<p class="col-12 textCenter">
+													This is to certify that M/s Vijetha an associate company M/s Thermax Ltd
+													has successfully and commissioned a Sand Filter and Iron Removal Filter
+												</p>
+												<div class="textCenter text-center">
+													<div>
+														<div
+															class="quote-image d-flex justify-content-center align-items-center">
+															<img class="imag" src="./images/vijeth/Group 819.png" alt="">
+														</div>
+													</div>
+													<span class="quote-name">Tejasvini Hospital</span>
+												</div>
+											</div>
+
+											 <div class="border">
+												<p class="col-12 textCenter">
+													We are happy with THERMAX product, Project execution and Annual Service
+													contract offered by M/s Vijetha
+												</p>
+												<div class="textCenter text-center">
+													<div>
+														<div
+															class="quote-image d-flex justify-content-center align-items-center">
+															<img class="imag" src="./images/vijeth/c5.png" alt="">
+														</div>
+													</div>
+													<span class="quote-name">SONAROME PVT LTD</span>
+												</div>
+											</div>
+										
+									</div>
+								</div>
+
+							</div>
+							<div class="d-flex justify-content-center align-items-center">
+								<button class="btn btn-gradient mb-3 productP"><a href="team.html" style="color: white;"> Read more</a></button>
+							</div>
+						</div>
+
+					</div>
+					
+
+				</div>
+				
+			</section>
+
+			<section class="ls ms s-pt-xl-90 s-pt-lg-90 s-pt-md-90 s-pt-60 s-pb-xl-140 s-pb-lg-250 s-pb-md-90 s-pb-60">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h2 class="special-heading text-center">
+								<span class="text-capitalize">
+									Latest News
+								</span>
+							</h2>
+							<p class="special-heading text-center">
+								<span class="text-capitalize color-darkgrey bold">
+									our blog
+								</span>
+							</p>
+							<div class="divider-50 hidden-below-lg"></div>
+							<div class="divider-30 hidden-above-lg"></div>
+							<div class="shortcode-posts row tiled-layout c-gutter-30 c-mb-30">
+								<div class="bigitem col-xl-6 col-lg-5">
+									<article
+										class="vertical-item ls rounded post type-post status-publish format-standard has-post-thumbnail">
+										<div class="item-media post-thumbnail">
+											<a href="blog-single-full.html">
+												<img src="./images/vijeth/Rectangle 998.png" alt="img">
+											</a>
+										</div><!-- .post-thumbnail -->
+										<div class="item-content">
+											<header class="entry-header">
+												<!--<div class="entry-meta">
+													<div class="byline">
+														 <span class="date">
+															<a href="blog-@@type.html" rel="bookmark">
+																<time class="published entry-date"
+																	datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+															</a>
+														</span>
+														<span class="author vcard">
+															<a class="url fn n" href="blog-@@type.html"
+																rel="author"><span>by</span> Admin</a>
+														</span> 
+													</div>
+												</div>-->
+												<h4 class="entry-title">
+
+													Crystal Clear Solutions: The Magic of Reverse Osmosis Chemicals
+													in Water Purification
+
+												</h4>
+
+												<!-- .entry-meta -->
+											</header>
+											<!-- .entry-header -->
+
+											<div class="entry-content">
+												<p>
+													Clean and pure water is not just a necessity; it's a lifeline. In
+													the realm of water treatment, the deployment of advanced
+													technologies has become instrumental in ensuring that water meets
+													the highest standards of purity. One such technology, reverse
+													osmosis, has revolutionised the purification process.
+												</p>
+											</div><!-- .entry-content -->
+											<button class="btn"><a href="blog-single-full.html">Read more</a></button>
+										</div><!-- .item-content -->
+									</article><!-- #post-## -->
+								</div>
+								<div class=" smallitem col-xl-6 col-lg-7">
+									<article
+										class="vertical-item side-item ls rounded post type-post status-publish format-standard has-post-thumbnail">
+										<div class="item-media post-thumbnail">
+											<a href="blog-2-full.html">
+												<img src="./images/vijeth/Rectangle 999.png" alt="img">
+											</a>
+										</div><!-- .post-thumbnail -->
+										<div class="item-content">
+											<header class="entry-header">
+												<!-- <div class="entry-meta">
+													<div class="byline">
+														<span class="date">
+															<a href="blog-@@type.html" rel="bookmark">
+																<time class="published entry-date"
+																	datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+															</a>
+														</span>
+														<span class="author vcard">
+															<a class="url fn n" href="blog-@@type.html"
+																rel="author"><span>by</span> Admin</a>
+														</span>
+													</div>
+												</div> -->
+												<h4 class="entry-title">
+													Benefits of Water Filtration Systems for Businesses
+												</h4>
+
+												<!-- .entry-meta -->
+											</header>
+											<!-- .entry-header -->
+
+											<div class="entry-content">
+												<p>
+													Whether used as the sole solution, or as a component of a multistage
+													treatment system, water filtration is an effective fix for numerous
+													problems.
+												</p>
+											</div><!-- .entry-content -->
+											<button class="btn"><a href="blog-2-full.html">Read more</a></button>
+										</div><!-- .item-content -->
+									</article>
+									<article
+										class="vertical-item side-item ls rounded post type-post status-publish format-standard has-post-thumbnail">
+										<div class="item-media post-thumbnail">
+											<a href="blog-4-full.html">
+												<img src="./images/vijeth/Rectangle 155.png" alt="img">
+											</a>
+										</div><!-- .post-thumbnail -->
+										<div class="item-content">
+											<header class="entry-header">
+												<!-- <div class="entry-meta">
+													<div class="byline">
+														<span class="date">
+															<a href="blog-@@type.html" rel="bookmark">
+																<time class="published entry-date"
+																	datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+															</a>
+														</span>
+														<span class="author vcard">
+															<a class="url fn n" href="blog-@@type.html"
+																rel="author"><span>by</span> Admin</a>
+														</span>
+													</div>
+												</div> -->
+												<h4 class="entry-title">
+													Tapping Wastewater for Sustainability: Vijetha's Turbidity Solution
+												</h4>
+
+												<!-- .entry-meta -->
+											</header>
+											<!-- .entry-header -->
+
+											<div class="entry-content">
+												<p>
+													In the global pursuit of sustainable development, the effective
+													management of wastewater has emerged as a critical priority.
+												</p>
+											</div><!-- .entry-content -->
+											<button class="btn"><a href="blog-4-full.html">Read more</a></button>
+										</div><!-- .item-content -->
+									</article>
+								</div>
+							</div>
+							<div class="mt--30"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<footer class="page_footer  text-center c-gutter-100 text-sm-left  ds">
+				<div class="container">
+					<div class="row justify-content-center">
+
+						<div class="col-lg-4 col-md-6 order-1 order-lg-1  animate" data-animation="fadeInUp">
+							<div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60"></div>
+							<a href="./" class="logo">
+								<img src="images/logo-vijetha.svg" alt="">
+
+							</a>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elitsed eiusmod tempor incididunt ut
+								labordolore magna aliqua eniminim
+							</p>
+							<a href="#" class="fab fa-facebook-f rounded-icon bg-icon fs-16" title="facebook"></a>
+							<a href="#" class="fab fa-twitter rounded-icon bg-icon fs-16" title="telegram"></a>
+							<a href="#" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
+							<a href="#" class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
+							<div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"></div>
+						</div>
+
+						<div class="col-lg-4 col-md-12 ls order-3 order-lg-2 footer-special-column text-center animate"
+							data-animation="fadeInUp">
+							<div class="form-wrapper">
+								<form class="contact-form" method="post" action="/">
+									<div class="row c-mb-20">
+										<div class="col-12 form-title text-center form-builder-item">
+											<div class="header title">
+												<h2>Write Us</h2>
+											</div>
+										</div>
+									</div>
+									<div class="row c-mb-10 c-gutter-10">
+										<div class="col-lg-12 text-center">
+											<div class="form-group has-placeholder">
+												<label for="name22335x5553">Full Name <span
+														class="required">*</span></label>
+												<input type="text" aria-required="true" size="30" value="" name="name"
+													id="name22335x5553" class="form-control" placeholder="Full Name">
+											</div>
+										</div>
+									</div>
+									<div class="row c-mb-10 c-gutter-10">
+										<div class="col-lg-12 text-center">
+											<div class="form-group has-placeholder">
+												<label for="name22335x5553">Email Id <span
+														class="required">*</span></label>
+												<input type="email" aria-required="true" value="" name="name"
+													id="name223355553" class="form-control" placeholder="Email">
+											</div>
+										</div>
+									</div>
+									<div class="row c-mb-10 c-gutter-10">
+										<div class="col-lg-12 text-center">
+											<div class="form-group has-placeholder">
+												<label for="name223355553">Phone Number <span
+														class="required">*</span></label>
+
+												<input type="text" aria-required="true" size="30" value="" name="name"
+													id="name223355553" class="form-control" placeholder="Phone Number">
+											</div>
+										</div>
+									</div>
+									<div class="row c-mb-10 c-gutter-10">
+										<div class="col-sm-12 text-center">
+											<div class="form-group has-placeholder">
+												<label for="message22335553">Message</label>
+
+												<textarea aria-required="true" rows="6" cols="45" name="message"
+													id="message22335553" class="form-control"
+													placeholder="Your Message"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="row c-mb-10 c-gutter-10">
+										<div class="col-sm-12 mb-0 mt-50">
+											<div class="form-group">
+												<input class="btn btn-gradient big-btn" type="submit"
+													value="Send message">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+							<h6 class="fs-12 text-uppercase">&copy; Copyright <span class="copyright_year">2023 by
+									Vijetha</span> <br><br>
+								Powered By Hexira Digital</h6>
+						</div>
+
+						<div class="col-lg-4 col-md-6 order-2 order-lg-3 animate" data-animation="fadeInUp">
+							<div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90"></div>
+							<div class="widget widget_icons_list">
+								<ul>
+									<li class="icon-inline ">
+										<div class="icon-styled icon-top  bordered round fs-16">
+											<i class="fas fa-phone"></i>
+										</div>
+										<p>+91 94484 95357</p>
+									</li>
+									<li class="icon-inline">
+										<div class="icon-styled icon-top bordered round  fs-16">
+											<i class="fas fa-envelope"></i>
+
+
+										</div>
+										<p><a href="#"><span class="__cf_email__"
+													data-cfemail="244a4542504564415c45495448410a474b49">sales@vijetha.net</span></a>
+										</p>
+									</li>
+									<li class="icon-inline">
+										<div class="icon-styled icon-top bordered round  fs-16">
+											<i class="fas fa-map-marker-alt"></i>
+										</div>
+										<p>
+											#153, First Floor, 6th Main Road, 7th Cross, Vijayanagar 2nd stage, Hampi
+											Nagar, RPC Layout, Bengaluru, Karnataka 560040
+										</p>
+									</li>
+									<li class="icon-inline">
+										<div class="icon-styled icon-top bordered round  fs-16">
+											<i class="fas fa-clock"></i>
+										</div>
+										<p>
+											Working Hours
+											<br>
+											9:30 am - 6 pm
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"></div>
+						</div>
+					</div>
+				</div>
+
+			</footer>
+
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+
+
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/switcher.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+	<!-- Google Map Script -->
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4&callback=initGoogleMap"></script>
+
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<script src="/path/to/flickity.pkgd.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	
+		<script>
+			$(document).ready(function () {
+				var flkty = new Flickity('.carousel', {
+					autoPlay: true,  // Enable autoplay
+					wrapAround: true,  // Allow wrapping around the carousel
+					pageDots: true,  // Show navigation dots
+					prevNextButtons: true,  // Show navigation arrows
+				});
+			});
+		</script>
+</body>
+
+</html>
