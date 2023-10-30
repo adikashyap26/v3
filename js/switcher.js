@@ -13,10 +13,10 @@ jQuery(document).ready(function(){
 	}
 	}
 
-	var switcherHTML = '<div id="switcher">';
-		switcherHTML +=    '<div class="color_switcher_header">';
-		switcherHTML +=    		'<span class="fa fa-phone"></span>';
-		switcherHTML +=    '<a href="./contact.html">Contact Us</a></div>';
+	// var switcherHTML = '<div id="switcher">';
+	// 	switcherHTML +=    '<div class="color_switcher_header">';
+	// 	switcherHTML +=    		'<span class="fa fa-phone"></span>';
+	// 	switcherHTML +=    '<a href="./contact.html">Contact Us</a></div>';
 
 
 		/*
@@ -37,12 +37,12 @@ jQuery(document).ready(function(){
 
 
 
-		switcherHTML +=    		'</ul>';
+		// switcherHTML +=    		'</ul>';
 
 
 
-		switcherHTML +=    '</div>';
-		switcherHTML +='</div>';
+		// switcherHTML +=    '</div>';
+		// switcherHTML +='</div>';
 
 		jQuery('body').append(switcherHTML);
 
