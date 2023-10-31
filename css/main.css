@@ -31320,3 +31320,164 @@ img.absolute_image {
 .dsp{
     background-color: #FFFFFF !important;
 }
+
+
+.banner_title_sec{
+    background-image: url(../images/banner/Rectangle174.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+}
+
+.bann_he{
+    height: 650px;
+}
+
+.banner_title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.newbreadcrumbs{
+    background-color: #FFFFFF  !important;
+}
+
+
+.breadcrums{
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    color: #10146b;
+    min-height: 80px;
+    height: auto;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-top: 50px;
+}
+
+.breadcrums_text{
+    font-weight: 400;
+    text-wrap:wrap;
+    font-size: 1.5rem;
+}
+
+.prod_inner_title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.prod_inner_size{
+    max-height: 450px;
+}
+
+.feature_title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.special_feat_sec{
+    background-color: #eaf7f9;
+    min-height: 450px;
+}
+.greybg{
+    background-color: #e4edee;
+    border-top: 10px solid #1687a7;
+}
+
+.spec_feat_title{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.toblack{
+    border-color: #000 !important;
+}
+
+.fa-check{
+    color: #2ea5d7;
+    margin-right: 10px;
+    font-size: 1.5rem;
+
+}
+
+.related_prod{
+    background-color: #fff;
+    min-height: 500px;
+}
+.related_prod_grid{
+    background-color: #f0f9fb;
+}
+
+.related_prod_title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.related_prod_sub_title{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.enquiry_sec{
+    background-image: url(../images/banner/Rectangle174.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.enq_row{
+    min-height: 400px;
+
+}
+
+.enq_title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.enq_btn{
+    border: #fff 2px solid;
+    background-color: #ffffff38;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 480px) {
+    .breadcrums_text{
+        font-weight: 400;
+        text-wrap:wrap;
+        font-size: 1rem;
+    }
+    
+
+  }
+
+  .new_bitem+.new_bitem::before {
+    color: #000;
+    content: "/";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 24px
+}
+
+.wa-chat-bubble-close-btn img{
+    width: 10px !important;
+    height: 10px !important;
+}
