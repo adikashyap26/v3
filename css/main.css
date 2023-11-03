@@ -10,12 +10,12 @@ html {
 }
 
 ::-moz-selection {
-    background-color: #dd4454;
+    background-color: #051771;
     color: #fff
 }
 
 ::selection {
-    background-color: #dd4454;
+    background-color: #051771;
     color: #fff
 }
 
@@ -1307,7 +1307,7 @@ input[type=radio]:disabled+label:before {
 
 [data-toggle=collapse]:after {
     align-items: center;
-    background-image: linear-gradient(to bottom, #dd9044 0%, #dd4454 100%);
+    background-color: #051771;
     border-radius: 50%;
     color: #fff;
     content: "\f078";
@@ -11054,13 +11054,13 @@ img {
 }
 
 .preloader_image {
-    background: url(../images/vijeth/vijet.gif) no-repeat 50% 50% transparent;
-    height: 256px;
+    background: url(../images/vijeth/vij.gif) no-repeat 50% 50% transparent;
+    height: 350px;
     left: 50%;
     margin: -128px 0 0 -128px;
     position: absolute;
     top: 50%;
-    width: 256px
+    width: 400px
 }
 
 .animate {
@@ -11542,8 +11542,8 @@ body.boxed {
 }
 
 [class*=-item] .links-wrap a.link-anchor:hover {
-    background-color: #dd4454;
-    border-color: #dd4454;
+    background-color: #051771;
+    border-color: #051771;
     color: #fff;
     opacity: 1
 }
@@ -30093,10 +30093,10 @@ img.absolute_image {
     transition: .6s ease-in-out
 }
 
-.item-gallery:hover .item-media img {
+/* .item-gallery:hover .item-media img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1)
-}
+} */
 
 .item-gallery .item-content h4,
 .item-gallery .item-content h5,
@@ -31480,4 +31480,36 @@ img.absolute_image {
 .wa-chat-bubble-close-btn img{
     width: 10px !important;
     height: 10px !important;
+}
+.gradient-button{
+   
+    background-color: white !important;
+    .active{
+        color: #051771 !important;
+    }
+}
+.gradient-button:hover{
+    background-image:  linear-gradient(to right, #2892CA 0%, #051771 50%, #2892CA 100%) ;
+    .active{
+        color: white !important;
+    }
+}
+.item{
+    padding-right: 80px;
+}
+@media screen and (max-width: 1199px) {
+    .item{
+        padding-right: 0px !important;
+    }
+}
+
+.fa-phone {
+    transform: scaleX(-1);
+  }
+.collapse .matbtn{
+    background-color: #051771 !important;
+}
+.img-fluidity{
+    width: 320px;
+    height: auto;
 }
