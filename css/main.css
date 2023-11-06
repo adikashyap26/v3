@@ -11054,9 +11054,9 @@ img {
 }
 
 .preloader_image {
-    background: url(../images/vijeth/vij.gif) no-repeat 50% 50% transparent;
+    background: url(../images/vijeth/pre.gif) no-repeat 50% 50% transparent;
     height: 350px;
-    left: 50%;
+    left: 45%;
     margin: -128px 0 0 -128px;
     position: absolute;
     top: 50%;
@@ -11542,20 +11542,20 @@ body.boxed {
 }
 
 [class*=-item] .links-wrap a.link-anchor:hover {
-    background-color: #051771;
-    border-color: #051771;
+    background-color: #09445a;
+    border-color: #09445a;
     color: #fff;
     opacity: 1
 }
 
 [class*=-item] .links-wrap a:before {
-    content: "\f002";
+    content: "\f00e";
     font-family: "font awesome 5 free", sans-serif;
     font-weight: 900
 }
 
 [class*=-item] .links-wrap a.link-anchor:before {
-    content: "\f041"
+    content: "\f00e"
 }
 
 [class*=-item]:hover .links-wrap a {
@@ -30089,14 +30089,14 @@ img.absolute_image {
     position: relative
 }
 
-.item-gallery .item-media img {
+/* .item-gallery .item-media img {
     transition: .6s ease-in-out
-}
+} */
 
-/* .item-gallery:hover .item-media img {
+.item-gallery:hover .item-media img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1)
-} */
+}
 
 .item-gallery .item-content h4,
 .item-gallery .item-content h5,
@@ -31510,6 +31510,6 @@ img.absolute_image {
     background-color: #051771 !important;
 }
 .img-fluidity{
-    width: 320px;
-    height: auto;
+    width: auto;
+    height: 240px;
 }
