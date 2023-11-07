@@ -1966,7 +1966,7 @@
 
         //page preloader
         $(".preloaderimg").fadeOut(150);
-        $(".preloader").fadeOut(150).delay(50, function () {
+        $(".preloader").fadeOut(150).delay(10, function () {
             $(this).remove();
         });
     }//eof windowLoadInit
