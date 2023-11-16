@@ -668,7 +668,7 @@ select,
 .form-control {
     border: 2px solid #f2f5f7;
     box-shadow: none;
-    color: #999;
+    color: #000;
     font-size: 16px;
     font-weight: 300;
     height: auto !important;
@@ -27810,16 +27810,16 @@ body.active-side-header.slide-right .page_header_side {
     }
 }
 
-@media(max-width:768px) {
+/* @media(max-width:768px) {
     .page_slider .flexslider .slides {
         height: 600px
     }
-}
+} */
 
 @media(max-width:575px) {
-    .page_slider .flexslider .slides {
+    /* .page_slider .flexslider .slides {
         height: 600px
-    }
+    } */
 
     .page_slider .flexslider .slides img {
         display: none
@@ -31678,45 +31678,97 @@ img.absolute_image {
 }
 
 .backgroundImage{
-    background-image: url(../images/banner/banner-1.png);
-    background-position: center;
+    background-image: url(../images/banner/banner111.png);
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
+    width: 100%;
+    height: 100%;
 
 }
 
+@media (max-width: 768px){
+    .backgroundImage{
+        margin-top: 50px;
+    }
+    .backgroundImage2{
+        margin-top: 50px;
+     }
+     .backgroundImage3{
+        margin-top: 50px;
+     }
+     .backgroundImage4{
+        margin-top: 50px;
+     }
+     .backgroundImage5{
+        margin-top: 50px;
+     }
+}
+
+
+@media(max-width:768px) {
+    .page_slider .flexslider .slides {
+        height: 300px;
+    }
+
+    .page_slider .flex-control-nav {
+        bottom: 10px;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        position: absolute;
+        right: 0
+    }
+}
+
+@media(max-width:575px) {
+    .page_slider .flexslider .slides img {
+        display: none
+    }
+}
+
+
+
 .backgroundImage2{
-    background-image: url(../images/banner/banner-2.png);
-    background-position: center;
+    background-image: url(../images/banner/banner112.png);
+    /* background-position: 100% 100%; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
+    width: 100%;
+    height: 100%;
 
 }
 
 .backgroundImage3{
-    background-image: url(../images/banner/banner-3.png);
-    background-position: center;
+    background-image: url(../images/banner/banner113.png);
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .backgroundImage4{
-    background-image: url(../images/banner/banner-4.png);
-    background-position: center;
+    background-image: url(../images/banner/banner114.png);
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .backgroundImage5{
-    background-image: url(../images/banner/banner-5.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-image: url(../images/banner/banner115.png);
+     /* background-position: center; */
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+     height: 100%;
 }
 /* #lastChild{
     display: none !important;
@@ -31739,4 +31791,17 @@ img.absolute_image {
     content: '';
     top: 10%;
     height: 240px;
+}
+
+@media (max-width: 1199px){
+    .videoMobile{
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 1199px){
+    .corporate{
+
+    }
 }
