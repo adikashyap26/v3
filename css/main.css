@@ -12265,6 +12265,11 @@ body.boxed {
     background-color: #f2f5f7
 }
 
+.dss{
+    background-color: none !important;
+    color: #fff
+}
+
 .ds {
     background-color: #EAF7F9;
     color: #fff
@@ -25723,7 +25728,7 @@ a img.aligncenter {
         font-size: 16px;
         font-weight: 500;
         line-height: 14px;
-        margin: 0 10px;
+        margin: 0 9px;
         padding-bottom: 30px;
         padding-left: 0;
         padding-top: 30px;
@@ -31358,6 +31363,7 @@ img.absolute_image {
     }
     .little_history_img{
         width: 100% !important;
+
     }
 }
 
@@ -31669,4 +31675,68 @@ img.absolute_image {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.backgroundImage{
+    background-image: url(../images/banner/banner-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.backgroundImage2{
+    background-image: url(../images/banner/banner-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.backgroundImage3{
+    background-image: url(../images/banner/banner-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.backgroundImage4{
+    background-image: url(../images/banner/banner-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.backgroundImage5{
+    background-image: url(../images/banner/banner-5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* #lastChild{
+    display: none !important;
+} */
+
+.fontSize h2{
+    font-size: 50px;
+    line-height: 67px;
+    font-weight: 300;
+}
+
+
+.backPannel{
+    background-color: #fff;
+    min-height: 300px !important;
+    border-radius: 10px;
+}
+.backPannel img{
+    position: relative;
+    content: '';
+    top: 10%;
+    height: 240px;
 }

@@ -1,6 +1,5 @@
 const url = new URLSearchParams(window.location.search);
 const poistion = url.get('position');
-debugger
 if(poistion == 'proposal-engineer'){
   document.getElementById('job-title').innerHTML = 'Proposal Engineer';
 } else if(poistion == 'sales-engineer'){
