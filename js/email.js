@@ -23,7 +23,20 @@ function sendEmail() {
       );
   }
   
+function emailSend(){
+ 
+  const form = document.getElementById("writeform");
   
+  emailjs.sendForm("service_tb2irvh", "template_7lh538e", form)
+    .then(
+      function (response) {
+        console.log("Email sent successfully", response);
+      },
+      function (error) {
+        console.log("Email failed to send", error);
+      }
+    );
+}
   
   
   

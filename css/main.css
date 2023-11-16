@@ -31496,7 +31496,7 @@ img.absolute_image {
 }
 
 .prod_inner_title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #000;
     text-transform: uppercase;
@@ -31707,9 +31707,12 @@ img.absolute_image {
 }
 
 
-@media(max-width:768px) {
+/* @media(max-width:768px) {
     .page_slider .flexslider .slides {
-        height: 300px;
+        height: 240px;
+    }
+    .page_slider .flex-control-nav li a{
+        width: 25px;
     }
 
     .page_slider .flex-control-nav {
@@ -31720,19 +31723,19 @@ img.absolute_image {
         position: absolute;
         right: 0
     }
-}
-
+} */
+/* 
 @media(max-width:575px) {
     .page_slider .flexslider .slides img {
         display: none
     }
-}
+} */
 
-
+/* 
 
 .backgroundImage2{
     background-image: url(../images/banner/banner112.png);
-    /* background-position: 100% 100%; */
+    background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -31743,7 +31746,7 @@ img.absolute_image {
 
 .backgroundImage3{
     background-image: url(../images/banner/banner113.png);
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -31753,7 +31756,7 @@ img.absolute_image {
 
 .backgroundImage4{
     background-image: url(../images/banner/banner114.png);
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -31763,13 +31766,13 @@ img.absolute_image {
 
 .backgroundImage5{
     background-image: url(../images/banner/banner115.png);
-     /* background-position: center; */
+     background-position: center;
      background-repeat: no-repeat;
      background-size: contain;
      position: relative;
      width: 100%;
      height: 100%;
-}
+} */
 /* #lastChild{
     display: none !important;
 } */
@@ -31800,8 +31803,8 @@ img.absolute_image {
 }
 
 
-@media (min-width: 576px) and (max-width: 1199px){
+/* @media (min-width: 576px) and (max-width: 1199px){
     .corporate{
 
     }
-}
+} */
