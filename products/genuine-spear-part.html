@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>Vijetha</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/font-awesome5.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/main.css" class="color-switcher-link">
+    <link rel="stylesheet" href="../css/shop.css" class="color-switcher-link">
+    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+
+    <style>
+        @media (max-width: 1199px) {
+            .flickity-button {
+                margin: -20px !important;
+            }
+
+            .flickity-prev-next-button {
+                width: 30px;
+                height: 30px;
+                top: 53%;
+            }
+
+            .textCenter {
+                font-size: 16px !important;
+                padding: 0 30px;
+            }
+
+            img {
+                width: 100px;
+            }
+        }
+
+        .table-bordered th,
+        .table-bordered td,
+        .table thead th {
+            border: 2px solid black;
+        }
+
+        /* @media (max-width: 767px) {
+	
+			.textCenter {
+				width: auto !important;
+			}
+	
+		} */
+
+        .flickity-button {
+            margin: 0 -80px;
+        }
+
+        .textCenter {
+            /* width: 380px;
+			height: 150px; */
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .border {
+            border: none !important;
+            height: 300px;
+        }
+
+        .imag {
+            width: 100px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="widget widget_search">
+            <form method="get" class="searchform search-form" action="/">
+                <div class="form-group">
+                    <input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+                        id="modal-search-input">
+                </div>
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </div>
+    </div>
+    <div id="team-form" class="ds modal">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="form-wrapper ls rounded">
+                        <form class="contact-form" method="post" action="/">
+                            <div class="row c-mb-20">
+                                <div class="col-12 form-title text-center form-builder-item">
+                                    <div class="header title">
+                                        <h4><span class="thin">Contact</span> me</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row c-mb-20">
+                                <div class="col-sm-12">
+                                    <div class="form-group has-placeholder">
+                                        <label for="name333">Full Name <span class="required">*</span></label>
+                                        <input type="text" aria-required="true" size="30" value="" name="name"
+                                            id="name333" class="form-control" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group has-placeholder">
+                                        <label for="phone35533">Email address<span class="required">*</span></label>
+                                        <input type="tel" aria-required="true" size="30" name="phone" id="phone35533"
+                                            class="form-control" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row c-mb-20">
+                                <div class="col-sm-12">
+                                    <div class="form-group has-placeholder">
+                                        <label for="message333">Message</label>
+                                        <textarea aria-required="true" rows="3" cols="45" name="message" id="message333"
+                                            class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row c-mb-20">
+                                <div class="col-sm-12 mb-0 mt-10 text-center">
+                                    <div class="form-group">
+                                        <input class="btn btn-gradient" type="submit" value="Contact me">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Unyson messages modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+        <div class="fw-messages-wrap ls p-normal">
+            <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+            <!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+        </div>
+    </div><!-- eof .modal -->
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+            <!--topline section visible only on small screens|-->
+
+
+
+            <div class="header_absolute">
+                <!--eof topline-->
+                <!-- header with two Bootstrap columns - left for logo and right for navigation -->
+                <header class="page_header_side header_slide header-special header_side_right ds">
+
+                    <div class="scrollbar-macosx">
+                        <div class="side_header_inner">
+                            <p class="text-right mb-0 close-wrapper"><a href="javascript:void(0)">×</a></p>
+
+                            <div class="widget widget_recent_posts">
+
+                                <h3 class="widget-title">Our news</h3>
+                                <ul class="list-unstyled">
+                                    <li class="media">
+                                        <article
+                                            class="vertical-item  post type-post status-publish format-standard has-post-thumbnail">
+                                            <div class="item-content">
+                                                <div class="entry-header">
+                                                    <div class="entry-meta">
+                                                        <div class="byline">
+                                                            <span class="date">
+                                                                <a href="blog-@@type.html" rel="bookmark">
+                                                                    <time class="published entry-date"
+                                                                        datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+                                                                </a>
+                                                            </span>
+                                                            <span class="author vcard">
+                                                                <a class="url fn n" href="blog-@@type.html"
+                                                                    rel="author"><span>by</span> Admin</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="blog-single-@@type.html" rel="bookmark">
+                                                            Adipisicing elit sed do eiusmod
+                                                        </a>
+                                                    </h4>
+
+                                                    <!-- .entry-meta -->
+                                                </div>
+                                                <!-- .entry-header -->
+                                            </div><!-- .item-content -->
+                                        </article>
+                                    </li>
+                                    <li class="media">
+                                        <article
+                                            class="vertical-item  post type-post status-publish format-standard has-post-thumbnail">
+                                            <div class="item-content">
+                                                <div class="entry-header">
+                                                    <div class="entry-meta">
+                                                        <div class="byline">
+                                                            <span class="date">
+                                                                <a href="blog-@@type.html" rel="bookmark">
+                                                                    <time class="published entry-date"
+                                                                        datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+                                                                </a>
+                                                            </span>
+                                                            <span class="author vcard">
+                                                                <a class="url fn n" href="blog-@@type.html"
+                                                                    rel="author"><span>by</span> Admin</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="blog-single-@@type.html" rel="bookmark">
+                                                            Adipisicing elit sed do eiusmod
+                                                        </a>
+                                                    </h4>
+
+                                                    <!-- .entry-meta -->
+                                                </div>
+                                                <!-- .entry-header -->
+                                            </div><!-- .item-content -->
+                                        </article>
+                                    </li>
+                                    <li class="media">
+                                        <article
+                                            class="vertical-item  post type-post status-publish format-standard has-post-thumbnail">
+                                            <div class="item-content">
+                                                <div class="entry-header">
+                                                    <div class="entry-meta">
+                                                        <div class="byline">
+                                                            <span class="date">
+                                                                <a href="blog-@@type.html" rel="bookmark">
+                                                                    <time class="published entry-date"
+                                                                        datetime="2019-04-09T12:23:09+00:00">20.03.2019</time>
+                                                                </a>
+                                                            </span>
+                                                            <span class="author vcard">
+                                                                <a class="url fn n" href="blog-@@type.html"
+                                                                    rel="author"><span>by</span> Admin</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="blog-single-@@type.html" rel="bookmark">
+                                                            Adipisicing elit sed do eiusmod
+                                                        </a>
+                                                    </h4>
+
+                                                    <!-- .entry-meta -->
+                                                </div>
+                                                <!-- .entry-header -->
+                                            </div><!-- .item-content -->
+                                        </article>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="widget widget_about">
+                                <h3 class="widget-title">About</h3>
+                                <p>
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum. Sed ut perspiciatis unde.
+                                </p>
+                            </div>
+                            <div class="widget widget_mailchimp">
+                                <h3 class="widget-title">Newsletter</h3>
+
+                                <form class="signup" action="/">
+                                    <label for="mailchimp_email88d">
+                                        <span class="screen-reader-text">Subscribe:</span>
+                                    </label>
+                                    <input id="mailchimp_email88d" name="email" type="email"
+                                        class="form-control mailchimp_email has-placeholder" placeholder="Email">
+                                    <button type="submit" class="search-submit">
+                                        <span class="screen-reader-text">Subscribe</span>
+                                    </button>
+                                    <div class="response"></div>
+                                </form>
+                            </div>
+                            <div class="widget widget_social_icons">
+                                <a href="#" class="fab fa-facebook-f rounded-icon bg-icon fs-16" title="facebook"></a>
+                                <a href="#" class="fab fa-twitter rounded-icon bg-icon fs-16" title="telegram"></a>
+                                <a href="#" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
+                                <a href="#" class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- <header class="page_header header-1 ds bg-transparent s-py-xl-20 s-py-10 "> -->
+                <header class="page_header header-1 ds  s-py-xl-5 s-py-10 dsp">
+
+                    <div class="container-fluid">
+
+                        <div class="row d-flex align-items-center justify-content-between">
+                            <div class="col-xl-3 col-md-12 col-12 text-center">
+                                <a href="../" class="logo">
+
+                                    <img src="../images/logo-vijetha.svg" alt="">
+
+                                </a>
+                                <span class="toggle_menu toggle1"><span>menu</span></span>
+                            </div>
+                            <div class="col-xl-6 col-1 text-right">
+                                <!-- main nav start -->
+                                <nav class="top-nav">
+                                    <ul class="nav sf-menu">
+
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+                                        <!-- eof pages -->
+
+
+
+                                        <!-- eof features -->
+
+
+                                        <!-- blog -->
+
+                                        <!-- eof blog -->
+
+                                        <!-- shop -->
+                                        <li>
+                                            <a>Product</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="../water-treatment-product.html">Water & waste
+                                                        Treatment</a>
+
+                                                </li>
+                                                <li>
+                                                    <a href="../sewage-treatment.html">Sewage Treatment</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../plate-heat-exchanger.html">Plate Heat Exchange</a>
+                                                </li>
+                                                <!-- <li>
+													<a href="./pharam.html">Shell & Tube Heat Exchangers</a>
+												</li> -->
+
+
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="../services.html">Service</a>
+                                            <!-- eof mega menu -->
+                                        </li>
+
+                                        <li>
+                                            <a href="../blog.html">Blog</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="../gallery.html">Gallery</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="../press-release.html">Press Release</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <!-- eof shop -->
+
+                                        <!-- contacts -->
+                                        <li>
+                                            <a href="../contact.html">Contact</a>
+
+                                        </li>
+                                        <li>
+                                            <a href="../careers.html">Career</a>
+                                        </li>
+
+                                        <!-- eof contacts -->
+                                    </ul>
+
+
+                                </nav>
+                                <!-- eof main nav -->
+                            </div>
+                            <!-- <div class="col-xl-3 col-md-7 col-12  d-flex justify-content-md-end">
+                                    <ul class="top-includes">
+                                        <li class="metaphone">
+                                            <a href="#">94484 95357</a>
+                                        </li>
+                                        <li class="special-menu">
+                                            <span class="toggle_menu toggle_menu_side header-slide toggle_menu_side_special"><span></span></span>
+                                        </li>
+                                    </ul>
+    
+    
+                                </div> -->
+
+                        </div>
+
+                    </div>
+                    <!-- header toggler -->
+                    <span class="toggle_menu toggle"><span>menu</span></span>
+                </header>
+            </div>
+            <section
+                class="banner_title_sec ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1>
+                                Genuine Spear part
+                            </h1>
+                            <div class="breadcrumb-wrap">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="../">Home</a>
+                                    </li>
+                                    <li class="breadcrumb-item">
+                                        <a href="../water-treatment-product.html">Water Treatment</a>
+                                    </li>
+                                    <li class="breadcrumb-item active">
+                                        Genuine Spear part
+                                    </li>
+                                </ol>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="prod_desc_sec mb-5">
+                <div class="container">
+
+                    <div class="row mt-5">
+                        <div class="col-12">
+                            <p class="prod_inner_title">
+                                Genuine Spear part
+                            </p>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="prod_inner_desc">
+                                Productivity and focus on core production, is your priority. We understand how smooth
+                                functioning of the water and waste treatment systems is critical to your processes, and
+                                how any problem in these utilities can impact operations. To ensure optimal plant
+                                performance, genuine care is taken to ensure that only original spares are used at all
+                                times. Vijetha offers a genuine spares for an assured lifetime and reliable operations.
+                            </p>
+                        </div>
+                        <!-- <div class="col-12 mt-3 mt-5">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-6 d-flex justify-content-center">
+                                    <img src="../images/vijeth/eeseries.png" class="img-fluidity prod_inner_size"
+                                        alt="">
+                                </div>
+                            </div> -->
+                    </div>
+                </div>
+
+        </div>
+
+        </section>
+
+
+        <section class=" my-5 py-5">
+            <div class="container">
+                <!-- <div class="row my-5">
+                        <div class="col-12 col-md-8 col-lg-8">
+                            <p class="feature_title">
+                                Description
+                            </p>
+                            <p class="feature_desc">
+                                E-Series has been designed and standardised to produce drinking water at smaller
+                                flowrates. It could be used for requirements industrial or commercial establishments and
+                                for residential use.
+                            </p>
+                             <div class="col-12 col-md-8 col-lg-8 pl-0">
+                                <p class="feature_title">
+                                    Additional Information:
+                                </p>
+                                <p class="feature_desc">
+                                    <b>Operation and Maintenance:</b> Regular membrane cleaning and replacement, system
+                                    monitoring
+                                    <br>
+                                    <b>Application Areas:</b> Industrial manufacturing, municipal water treatment
+                                    plants, commercial buildings, residential complexes, and various other settings
+                                    requiring the removal of high Total Dissolved Solids (TDS) from water to meet
+                                    stringent quality standards.
+
+                                </p>
+                            </div> 
+                        </div>
+
+
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-11 greybg mt-3">
+
+                                    <p class="spec_feat_title">
+                                        Advantages
+                                        <hr class="toblack">
+                                    </p>
+
+                                    <p>
+                                        <span><i class="fas fa-check"></i> </span> Compact & modular
+                                    </p>
+                                    <p>
+                                        <span><i class="fas fa-check"></i> </span> Easy installation, operation and
+                                        servicing
+                                    </p>
+                                    <p>
+                                        <span><i class="fas fa-check"></i> </span> Online product water quality
+                                        monitoring
+                                    </p>
+                                    <p>
+                                        <span><i class="fas fa-check"></i> </span> Automation options available
+                                    </p>
+                                    <p class="mb-5">
+                                        <span><i class="fas fa-check"></i> </span>Available in
+                                        200/400/600/800/1000/1200/2000/3000 LPH
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="special_feat_sec">
+                            <th scope="col">Tem</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Images</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-3">Filter Media</td>
+                            <td class="col-6">Filter Media as per IS-8419 in Different Grades to suit your filtration needs.</td>
+                            <td class="col-3"><img src="../images/vijeth/g1.jpg" alt="filter-media"><img src="../images/vijeth/g11.jpg" alt="filter-media"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Activated carbon</td>
+                            <td  class="col-6">In different mesh sizes and Iodine nos from 550 to 1000, Coconut Shell Base.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g2.jpg" alt="activated-carbon"></td>
+                        </tr>
+                        <tr>
+                            <td class="col-3">Anthracite</td>
+                            <td class="col-6">In Different mesh sizes, regular as well as processed for Higher Filtration Efficiency.</td>
+                            <td class="col-3"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Green Sand</td>
+                            <td  class="col-6">Manganese Greensand is used to remove iron, manganese and hydrogen sulphide from water resources. It is used alone or in combination with coal in dual media filtration systems.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g4.jpg" ></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Raschig Rings</td>
+                            <td  class="col-6">In Standard PP MOC of 38 mm size</td>
+                            <td  class="col-3"><img src="../images/vijeth/g5.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">RO Membranes</td>
+                            <td  class="col-6">CTA and TFC RO Membranes from Reputed Manufacturers in 1.8”, 2.5”, 4” and 8” Dia for Tap / Brackish/ Well/Sea water applications.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g6.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Ultra Filtration Membranes</td>
+                            <td  class="col-6">Ultra filtration membranes (MOC - polyethersulfone) for Municipal / Industrial applications</td>
+                            <td  class="col-3"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">RO Housings</td>
+                            <td  class="col-6">RO Housings for 4” and 8” Membranes in Filament wound FRP to suit different Arrays of Membranes.</td>
+                            <td  class="col-3"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Cartridge Filters & cartridges</td>
+                            <td  class="col-6">Pleated, Spun, Melt blown, Wound Cartridges from 0.2 to 50 microns with Housings of SS-304/ SS-316/PP/ Nylon/ GR Nylon.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g7.jpg"><img src="../images/vijeth/g71.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Diaphragm Valves, Check Valves & Diaphragms</td>
+                            <td  class="col-6">Valves with Body MOC in CI/CS/CF-8M/ Hastalloy/ Aluminum/ Bronze, Lining in Natural Rubber/ Ebonite/ Neoprene/Hypalon/ PTFE with Diaphragms in Natural Rubber/Neoprene/ Butyl/Viton/ PTFE/ Nitrile/ Silicon etc.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g8.jpg"><img src="../images/vijeth/g81.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Multiport Valves</td>
+                            <td  class="col-6">Multiport valves in ABS of 15 NB, 40 NB, 65 NB sizes for Filters, Softeners, Cation, Anion and Mixed Bed.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g9.jpg"><img src="../images/vijeth/g91.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Internals</td>
+                            <td  class="col-6">MOC - MS / MSRL/MSEL/SS-304/SS-316/ PP For Inlet/ Middle/ Bottom/ Regenerant Distributors/ Collectors with Laterals to suit different ion-exchangers.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g10.jpg"><br>
+                                <img src="../images/vijeth/g10.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Ejectors</td>
+                            <td  class="col-6">MSEL & MS Ejectors with Ebonite Nozzles, CI Ejectors with GM Nozzles in 1: 5 & 1: 1 ratios to suit different pipe sizes and applications.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g12.jpg"><br>
+                                <img src="../images/vijeth/g12.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Sight Glass Window</td>
+                            <td  class="col-6">In PP/ Acrylic MOC for Ion-Exchanger Vessels.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g13.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Level Indicators</td>
+                            <td  class="col-6">Reflex, Tubular, type Level Gauges for water/ Acid / Alkali storage tanks with different MOC for varied applications.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g14.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Vexar Netting, PP Mesh & Tie Wraps</td>
+                            <td  class="col-6">In PP to suit different Lateral Sizes and Lengths.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g15.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Strainers</td>
+                            <td  class="col-6">Double Decker Strainers, Single Decker Strainers, Disc type strainers, Mushroom Type Strainers in PP in different sizes and Flow rates.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g16.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Resin Traps/ Media Traps</td>
+                            <td  class="col-6">Resin / Media Traps in SS-316 and SS – 304 for trapping of Resin/carbon Media in Pipelines.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g17.jpg"><br><br>
+                                <img src="../images/vijeth/g17.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Fume  Absorbers, CO2 Absorbers, Seal Pots etc.</td>
+                            <td  class="col-6">In PP/ PVC/ MSRL Construction for acid /alkali scrubbing in Regeneration areas of water treatment Plants.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g18.jpg"><img src="../images/vijeth/g18.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Rubber lined Pipes and Pipe Fittings</td>
+                            <td  class="col-6">Pipes and Pipe Fittings as per requirement with and Natural Rubber/ Ebonite Lining.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g19.jpg"><img src="../images/vijeth/g19.1.jpg"><br>
+                                <img src="../images/vijeth/g19.2.jpg"><img src="../images/vijeth/g19.3.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Safety shower/ Eye wash fountains</td>
+                            <td  class="col-6">Push Plate/ Pedal operated eye wash fountains and pull rod/ pedal operated drench showers with SS Shower heads and eye bowls.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g20.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Conductivity Meters/ pH Meters/ Flow Meters</td>
+                            <td  class="col-6">Conductivity meters (range 0 to 4uS/cm) and (4 to 40uS/cm), pH Indicators in the range 0 to14 and flow Indicators to suit different applications</td>
+                            <td  class="col-3"><img src="../images/vijeth/g21.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Swimming Pool Components</td>
+                            <td  class="col-6">A full range of water treatment equipments and chemicals for use in swimming pools and saunas like-Pool filters, chemical dosers, pool inlet and outlet fittings, ladders, underwater lights, ozone generators, skimmers, suction sweepers, etc.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g22.jpg"><br><img src="../images/vijeth/g22.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Dosing Pumps</td>
+                            <td  class="col-6">Chemical dosing pumps, Electronic dosing pumps, plunger type dosing pumps for Chemical dosing</td>
+                            <td  class="col-3"><img src="../images/vijeth/g23.jpg"><img src="../images/vijeth/g23.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Victaulic Couplings</td>
+                            <td  class="col-6">Victaulic Couplings in CI/CF 8M construction with Nitrile/EPDM Gaskets in various sizes</td>
+                            <td  class="col-3"><img src="../images/vijeth/g24.jpg"><br><img src="../images/vijeth/g24.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Basket type Strainers</td>
+                            <td  class="col-6">Basket type Strainers in PP/FRP/SS MOC with 50 micron/100 Micron rating for UF pretreatment</td>
+                            <td  class="col-3"><img src="../images/vijeth/g25.jpg"><br><br>
+                                <img src="../images/vijeth/g25.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Agitators</td>
+                            <td  class="col-6">Slow speed agitators, High speed agitators in SS construction for chemical mixing</td>
+                            <td  class="col-3"><img src="../images/vijeth/g26.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Lamella Plates</td>
+                            <td  class="col-6">Plates for Lamella Clarifier in corrosion resistant FRP/PP construction with higher surface area</td>
+                            <td  class="col-3"><img src="../images/vijeth/g27.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Flocculator/Flash Mixer</td>
+                            <td  class="col-6"></td>
+                            <td  class="col-3"><img src="../images/vijeth/g28.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Chemical Tanks/Dosing Tanks</td>
+                            <td  class="col-6">Tanks in virgin PP/virgin LDPE/FRP MOC for Chemical Storage. Dosing tanks in virgin LDPE also available in smaller volumes.</td>
+                            <td  class="col-3"><img src="../images/vijeth/g29.jpg"><img src="../images/vijeth/g29.1.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">MBBR Media</td>
+                            <td  class="col-6">MBBR Media with high surface area for increased –attached Biomass growth</td>
+                            <td  class="col-3"><img src="../images/vijeth/g30.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td  class="col-3">Bladder Tanks/Pressure Boosting Tanks</td>
+                            <td  class="col-6">Pressure Tanks in FRP/MS construction with replaceable bladders of food grade quality. Available in variety of sizes to suit your requirement</td>
+                            <td  class="col-3"><img src="../images/vijeth/g31.jpg"><br>
+                                <img src="../images/vijeth/g31.1.jpg"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+            </div>
+
+        </section>
+
+        <!-- <section class="related_prod mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <p class="related_prod_title">
+                        Related Product
+                    </p>
+                </div>
+                <div class="col-12 mt-5">
+                    <div class="row d-flex justify-content-around">
+
+                        <div class="col-12 col-md-2 col-lg-2 related_prod_grid">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <a href="siro.html"> <img src="../images/vijeth/siro-removebg-preview.png"
+                                            class="img-fluid" alt=""></a>
+
+                                </div>
+                                <div class="col-12">
+                                    <p class="related_prod_sub_title">
+                                        SIRO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-2 col-lg-2 related_prod_grid">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <a href="pharam.html"><img
+                                            src="../images/images nobg/phram_sub-removebg-preview.png" class="img-fluid"
+                                            alt=""></a>
+
+                                </div>
+                                <div class="col-12">
+                                    <p class="related_prod_sub_title">
+                                        Pharma RO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-2 col-lg-2 related_prod_grid">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <a href="lofloro.html"> <img src="../images/images nobg/loflo-removebg-preview.png"
+                                            class="img-fluid" alt=""></a>
+
+                                </div>
+                                <div class="col-12">
+                                    <p class="related_prod_sub_title">
+                                        LO FLO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-2 col-lg-2 related_prod_grid">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <a href="eseries.html"> <img src="../images/vijeth/eseries-removebg-preview.png"
+                                            class="img-fluid" alt=""></a>
+
+                                </div>
+                                <div class="col-12">
+                                    <p class="related_prod_sub_title">
+                                        Eseries
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="enquiry_sec">
+            <div class="container">
+
+                <div class="row enq_row d-flex align-items-center">
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <p class="enq_title">
+                            Get the Water Solutions You <br>
+                            Deserve - Talk to our experts
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <a href="../contact.html" class="enq_btn btn-block">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <footer class="page_footer  text-center c-gutter-100 text-sm-left  ds">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-4 col-md-6 order-1 order-lg-1  animate" data-animation="fadeInUp">
+                        <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60">
+                        </div>
+                        <a href="../" class="logo">
+                            <img src="../images/logo-vijetha.svg" alt="">
+
+                        </a>
+                        <p>
+                            We prioritise effective wastewater treatment for a sustainable future, emphasising
+                            environmental preservation and community well-being.
+                        </p>
+                        <a href="#" class="fab fa-facebook-f rounded-icon bg-icon fs-16" title="facebook"></a>
+                        <a href="#" class="fab fa-twitter rounded-icon bg-icon fs-16" title="telegram"></a>
+                        <a href="#" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
+                        <a href="#" class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
+                        <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 ls order-3 order-lg-2 footer-special-column text-center animate"
+                        data-animation="fadeInUp">
+                        <div class="form-wrapper">
+                            <form class="contact-form" method="post" action="/">
+                                <div class="row c-mb-20">
+                                    <div class="col-12 form-title text-center form-builder-item">
+                                        <div class="header title">
+                                            <h2> Write To Us</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row c-mb-10 c-gutter-10">
+                                    <div class="col-lg-12 text-center">
+                                        <div class="form-group has-placeholder">
+                                            <label for="name22335x5553">Full
+                                                Name <span class="required">*</span></label>
+                                            <input type="text" aria-required="true" size="30" value="" name="name"
+                                                id="name22335x5553" class="form-control" placeholder="Full Name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row c-mb-10 c-gutter-10">
+                                    <div class="col-lg-12 text-center">
+                                        <div class="form-group has-placeholder">
+                                            <label for="name22335x5553">Email
+                                                Id <span class="required">*</span></label>
+                                            <input type="email" aria-required="true" value="" name="name"
+                                                id="name223355553" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row c-mb-10 c-gutter-10">
+                                    <div class="col-lg-12 text-center">
+                                        <div class="form-group has-placeholder">
+                                            <label for="name223355553">Phone
+                                                Number <span class="required">*</span></label>
+
+                                            <input type="text" aria-required="true" size="30" value="" name="name"
+                                                id="name223355553" class="form-control" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row c-mb-10 c-gutter-10">
+                                    <div class="col-sm-12 text-center">
+                                        <div class="form-group has-placeholder">
+                                            <label for="message22335553">Message</label>
+
+                                            <textarea aria-required="true" rows="6" cols="45" name="message"
+                                                id="message22335553" class="form-control"
+                                                placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row c-mb-10 c-gutter-10">
+                                    <div class="col-sm-12 mb-0 mt-50">
+                                        <div class="form-group">
+                                            <input class="btn btn-gradient big-btn" type="submit" value="Send message">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <h6 class="fs-12 text-uppercase">&copy; Copyright
+                            <span class="copyright_year">2023 by
+                                Vijetha</span> <br> <br>
+                            Powered By Hexira Digital
+                        </h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6 order-2 order-lg-3 animate" data-animation="fadeInUp">
+                        <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90">
+                        </div>
+                        <div class="widget widget_icons_list">
+                            <ul>
+                                <li class="icon-inline ">
+                                    <div class="icon-styled icon-top  bordered round fs-16">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <p>+91 94484 95357</p>
+                                </li>
+                                <li class="icon-inline">
+                                    <div class="icon-styled icon-top bordered round  fs-16">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <p><a href="#"><span class="__cf_email__"
+                                                data-cfemail="214f40475540614459404c514d440f424e4c">sales1@vijetha.net</span></a>
+                                    </p>
+                                </li>
+                                <li class="icon-inline">
+                                    <div class="icon-styled icon-top bordered round  fs-16">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <p>
+                                        #153, First Floor, 6th Main Road,
+                                        7th Cross, Vijayanagar 2nd stage,
+                                        Hampi
+                                        Nagar, RPC Layout, Bengaluru,
+                                        Karnataka 560040
+                                    </p>
+                                </li>
+                                <li class="icon-inline">
+                                    <div class="icon-styled icon-top bordered round  fs-16">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <p>
+                                        Working Hours
+                                        <br>
+                                        Monday - Saturday <br> 9:30 am - 6 pm
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div><!-- eof #box_wrapper -->
+    </div><!-- eof #canvas -->
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="../js/compressed.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/switcher.js"></script>
+    <script src="../js/whatsapp-chatBot.js"></script>
+
+</body>
+
+</html>

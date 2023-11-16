@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
 
@@ -15,13 +18,13 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/animations.css">
-    <link rel="stylesheet" href="../css/font-awesome5.css">
-    <link rel="stylesheet" href="../css/icomoon.css">
-    <link rel="stylesheet" href="../css/main.css" class="color-switcher-link">
-    <link rel="stylesheet" href="../css/shop.css" class="color-switcher-link">
-    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/font-awesome5.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+    <link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
     <!--[if lt IE 9]>
 		<script src="js/vendor/html5shiv.min.js"></script>
@@ -29,57 +32,6 @@
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>
 	<![endif]-->
 
-
-    <style>
-        @media (max-width: 1199px) {
-            .flickity-button {
-                margin: -20px !important;
-            }
-
-            .flickity-prev-next-button {
-                width: 30px;
-                height: 30px;
-                top: 53%;
-            }
-
-            .textCenter {
-                font-size: 16px !important;
-                padding: 0 30px;
-            }
-
-            img {
-                width: 100px;
-            }
-        }
-
-        /* @media (max-width: 767px) {
-	
-			.textCenter {
-				width: auto !important;
-			}
-	
-		} */
-
-        .flickity-button {
-            margin: 0 -80px;
-        }
-
-        .textCenter {
-            /* width: 380px;
-			height: 150px; */
-            font-size: 22px;
-            text-align: center;
-        }
-
-        .border {
-            border: none !important;
-            height: 300px;
-        }
-
-        .imag {
-            width: 100px !important;
-        }
-    </style>
 </head>
 
 <body>
@@ -183,7 +135,6 @@
 
             <!-- template sections -->
             <!--topline section visible only on small screens|-->
-
 
 
             <div class="header_absolute">
@@ -334,12 +285,12 @@
 
                         <div class="row d-flex align-items-center justify-content-between">
                             <div class="col-xl-3 col-md-12 col-12 text-center">
-                                <a href="../" class="logo">
+                                <a href="./" class="logo">
 
-                                    <img src="../images/logo-vijetha.svg" alt="">
+                                    <img src="images/logo-vijetha.svg" alt="">
 
                                 </a>
-                                <span class="toggle_menu toggle1"><span>menu</span></span>
+                                <span class="toggle_menu toggle1"><span class="menucolor">menu</span></span>
                             </div>
                             <div class="col-xl-6 col-1 text-right">
                                 <!-- main nav start -->
@@ -347,55 +298,43 @@
                                     <ul class="nav sf-menu">
 
                                         <li>
-											<a href="about.html">About Us</a>
-										</li>
-                                        <!-- eof pages -->
+                                            <a href="about.html">About Us</a>
+                                        </li>
 
-
-
-                                        <!-- eof features -->
-
-
-                                        <!-- blog -->
-
-                                        <!-- eof blog -->
-
-                                        <!-- shop -->
                                         <li>
-											<a>Product</a>
-											<ul>
-												<li>
-													<a href="../water-treatment-product.html">Water Treatment</a>
+                                            <a>Product</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="./water-treatment-product.html">Water & waste Treatment</a>
 
-												</li>
-												<li>
-													<a href="../sewage-treatment.html">Sewage Treatment</a>
-												</li>
-												<li>
-													<a href="../plate-heat-exchanger.html">Plate Heat Exchange</a>
-												</li>
-												<!-- <li>
-													<a href="./pharam.html">Shell & Tube Heat Exchangers</a>
-												</li> -->
-												
+                                                </li>
+                                                <li>
+                                                    <a href="./sewage-treatment.html">Sewage Treatment</a>
+                                                </li>
+                                                <li>
+                                                    <a href="effluent-treatment.html">Plate Heat Exchange</a>
+                                                </li>
+                                                <!-- <li>
+														<a href="./pharam.html">Shell & Tube Heat Exchangers</a>
+													</li> -->
 
-											</ul>
-										</li>
+                                            </ul>
+                                        </li>
                                         <li>
-                                            <a href="../services.html">Service</a>
+                                            <a href="./services.html">Service</a>
                                             <!-- eof mega menu -->
                                         </li>
 
                                         <li>
-                                            <a href="../blog.html">Blog</a>
+                                            <a href="blog.html">Blog</a>
                                             <ul>
                                                 <li>
-                                                    <a href="../gallery.html">Gallery</a>
+                                                    <a href="gallery.html">Gallery</a>
+                                                </li>
+                                                <li>
+                                                    <a href="press-release.html">Press Release</a>
                                                 </li>
 
-                                                <li>
-                                                    <a href="../press-release.html">Press Release</a>
-                                                </li>
                                             </ul>
                                         </li>
 
@@ -403,13 +342,12 @@
 
                                         <!-- contacts -->
                                         <li>
-                                            <a href="../contact.html">Contact</a>
+                                            <a href="contact.html">Contact</a>
 
                                         </li>
                                         <li>
-                                            <a href="../careers.html">Career</a>
+                                            <a href="careers.html">Career</a>
                                         </li>
-
                                         <!-- eof contacts -->
                                     </ul>
 
@@ -417,7 +355,18 @@
                                 </nav>
                                 <!-- eof main nav -->
                             </div>
-                         
+                            <!-- <div class="col-xl-3 col-md-7 col-12  d-flex justify-content-md-end">
+									<ul class="top-includes">
+										<li class="metaphone">
+											<a href="#">94484 95357</a>
+										</li>
+										<li class="special-menu">
+											<span class="toggle_menu toggle_menu_side header-slide toggle_menu_side_special"><span></span></span>
+										</li>
+									</ul>
+	 
+	 
+								</div> -->
 
                         </div>
 
@@ -427,27 +376,24 @@
                 </header>
             </div>
             <section
-                class="banner_title_sec ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60">
+                class="page_title press_release_banner ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <h1>
-                                ABSORBER
-                            </h1>
+                            <h1>Pre-Treatment</h1>
                             <div class="breadcrumb-wrap">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a href="../">Home</a>
+                                        <a href="./">Home</a>
                                     </li>
                                     <li class="breadcrumb-item">
-                                        <a href="../water-treatment-product.html">Water Treatment</a>
+                                        <a href="water-treatment-product.html">Water & waste Treatment</a>
                                     </li>
                                     <li class="breadcrumb-item active">
-                                        <a href="../accessories.html">Accessories</a>
-                                        
+                                        <a href="clarification.html">Clarification</a>
                                     </li>
                                     <li class="breadcrumb-item active">
-                                        ABSORBER
+                                        Pre-Treatment
                                     </li>
                                 </ol>
                             </div>
@@ -459,203 +405,76 @@
                 </div>
             </section>
 
-            <section class="prod_desc_sec mb-5">
+
+            <section
+                class="ls ms text-center tax-fw-portfolio-category s-pt-xl-90 s-pt-lg-90 s-pt-md-90 s-pt-60 s-pb-xl-90 s-pb-lg-90 s-pb-md-90 s-pb-60">
                 <div class="container">
 
-                    <div class="row mt-5">
-                        <div class="col-12">
-                            <p class="prod_inner_title">
-                                ABSORBER
-                            </p>
-                        </div>
-                        <div class="col-12 mt-3">
-                            <p class="prod_inner_desc">
-                                The Absorber by Vijetha is an integral component within demineralization plants,
-                                meticulously designed to ensure maximum efficiency in water treatment processes. With a
-                                focus on accurate configuration, the absorber is tailored to meet specific project
-                                requirements and water quality parameters, as determined through the use of customised
-                                software. This software, integrated into our sales force, allows for the precise
-                                analysis of inlet water quality and capacity needs, enabling the provision of optimal
-                                and cost-effective solutions for various industrial and commercial applications.
-                            </p>
-                        </div>
-                        <div class="col-12 mt-3 mt-5">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-6 d-flex justify-content-center">
-                                    <img src="../images/vijeth/absorber-removebg-preview.png" class="img-fluidity prod_inner_size" alt="">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- <h4>Clarification </h4>
+                            <p>Clarification or settling is a process which takes place in an equipment called a
+                                clarifier. We offers a wide range of advanced clarifiers to address the clarification
+                                requirements of surface water and waste water. These include high rate solids contact
+                                clarifier, Tube Settler/Klarimax, Colour Removal Systems.</p> -->
+                            <div class="row portfolio isotope-wrapper masonry-layout c-gutter-30 c-mb-30 pt-5"
+                                data-filters=".gallery-filters">
+
+                                <div class="col-xl-4 col-md-6 business corporate">
+
+                                    <div class="vertical-item bordered rounded overflow-hidden text-center ">
+                                        <div class="item-media">
+                                            <img src="images/vijeth/hrsc.jpg" alt="img">
+                                            <div class="media-links">
+                                                <div>
+
+                                                    <a class="link-anchor" title=""
+                                                        href="products/hrscc.html"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-content small-padding">
+
+                                            <h6>
+                                                <a class="underline">High Rate Solids Contact Clarifier</a>
+                                                <p class="productP">To reduce high Suspended Solids</p>
+                                            </h6>
+                                        </div>
+                                        <button class="btn btn-gradient mb-3"><a
+                                                href="products/hrscc.html" style="color: white;"> Read
+                                                more</a></button>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-xl-4 col-md-6 innovations corporate">
+                                    <div class="vertical-item bordered rounded overflow-hidden text-center ">
+                                        <div class="item-media">
+                                            <img src="images/vijeth/klarimaxx.jpg" alt="img">
+                                            <div class="media-links">
+                                                <div>
+                                                    <a class="link-anchor" title=""
+                                                        href="products/klarimax.html"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-content small-padding">
+
+                                            <h6>
+                                                <a class="underline">Klarimax</a>
+                                                <p class="productP">Reduce suspended solids from surface waters</p>
+                                            </h6>
+                                        </div>
+                                        <button class="btn btn-gradient mb-3"><a href="products/klarimax.html"
+                                                style="color: white;"> Read more</a></button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-
             </section>
-
-
-            <section class="special_feat_sec">
-                <div class="container">
-                    <div class="row my-5">
-                        <div class="col-12 col-md-8 col-lg-8">
-                            <p class="feature_title">
-                                Product Specification for Absorber by Vijetha:
-                            </p>
-                            <p class="feature_desc">
-                                Absorber Type: Water Absorber<br>
-                                Industry Application: Demineralization Plants<br>
-                                Customised Configuration: Accurate configuration tailored for maximum efficiency<br>
-                                Inlet Water Quality Analysis: Consideration of specific water quality parameters<br>
-                                Software Integration: Customised software for accurate configuration<br>
-                                Solution Offerings: Optimal and Cost-Effective Solutions<br>
-                                Industry: All (customizable for specific industries)<br>
-                                Absorber Capacity: Customizable based on project requirements<br>
-                                Installation Service: Provided by Vijetha
-
-
-                            </p>
-                            <div class="col-12 col-md-8 col-lg-8 pl-0">
-                                <p class="feature_title">
-                                    Additional Information:
-                                </p>
-                                <p class="feature_desc">
-                                    <b>Operation and Maintenance:</b> Regular software updates and maintenance checks to
-                                    ensure continued optimal performance
-                                    <br>
-                                    <b>Application Areas:</b> Industrial manufacturing, power generation plants,
-                                    pharmaceutical production units, commercial buildings, and various other settings
-                                    requiring precise and efficient water treatment solutions to meet specific capacity
-                                    and quality requirements.
-                                   
-                                </p>
-                            </div>
-                        </div>
-
-
-                         <div class="col-12 col-md-4 col-lg-4">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-11 greybg mt-3">
-
-                                    <p class="spec_feat_title">
-                                        Special Features
-                                        <hr class="toblack">
-                                    </p>
-                         
-                                    <p>
-                                        <span><i class="fas fa-check"></i> </span>    Customised Configuration
-                                    </p>
-                                    <p>
-                                        <span><i class="fas fa-check"></i> </span> Advanced Software Integration
-                                    </p>
-                                    <p>
-                                        <span><i class="fas fa-check"></i> </span>   Optimal Efficiency
-                                    </p>
-                                    <p>
-                                        <span><i class="fas fa-check"></i> </span>Cost-Effective Solutions
-                                    </p>
-                                    <p class="mb-5">
-                                        <span><i class="fas fa-check"></i> </span>Reliable Performance
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-
-            </section>
-
-            <section class="related_prod mt-5">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="related_prod_title">
-                            Related Product
-                        </p>
-                    </div>
-                    <div class="col-12 mt-5">
-                        <div class="row d-flex justify-content-around">
-
-                            <div class="col-12 col-md-2 col-lg-2 related_prod_grid">
-                                <div class="row">
-                                    <div class="col-12 d-flex justify-content-center">
-                                        <a href="pump.html">  <img src="../images/vijeth/pump-removebg-preview.png" class="img-fluid" alt=""></a>
-                                      
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="related_prod_sub_title">
-
-                                           Pump
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-2 col-lg-2 related_prod_grid">
-                                <div class="row">
-                                    <div class="col-12 d-flex justify-content-center">
-                                        <a href="agitator.html"> <img src="../images/vijeth/agitator-removebg-preview.png" class="img-fluid" alt=""></a>
-                                       
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="related_prod_sub_title">
-                                            Agitator & Skid
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-2 col-lg-2 related_prod_grid">
-                                <div class="row">
-                                    <div class="col-12 d-flex justify-content-center">
-                                        <a href="dosing-pump.html"> <img src="../images/vijeth/dosing-pump-removebg-preview.png" class="img-fluid" alt=""></a>
-                                       
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="related_prod_sub_title">
-                                            Dosing Pump
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-2 col-lg-2 related_prod_grid">
-                                <div class="row">
-                                    <div class="col-12 d-flex justify-content-center">
-                                        <a href="uv-sterilizer.html"> <img src="../images/images nobg/uv_stabilizer.png" class="img-fluid" alt=""></a>
-                                       
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="related_prod_sub_title">
-                                           UV-Sterilizer
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="enquiry_sec">
-                <div class="container">
-
-                    <div class="row enq_row d-flex align-items-center">
-                        <div class="col-12 col-md-8 col-lg-8">
-                            <p class="enq_title">
-                                Get the Water Solutions You <br>
-                                Deserve - Talk to our experts
-                            </p>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-4">
-                            <a href="../contact.html" class="enq_btn btn-block">
-                                Contact Us
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-
-
 
 
             <footer class="page_footer  text-center c-gutter-100 text-sm-left  ds">
@@ -663,21 +482,20 @@
                     <div class="row justify-content-center">
 
                         <div class="col-lg-4 col-md-6 order-1 order-lg-1  animate" data-animation="fadeInUp">
-                            <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60">
-                            </div>
-                            <a href="../" class="logo">
-                                <img src="../images/logo-vijetha.svg" alt="">
+                            <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60"></div>
+                            <a href="./" class="logo">
+                                <img src="images/logo-vijetha.svg" alt="">
 
                             </a>
                             <p>
-                                We prioritise effective wastewater treatment for a sustainable future, emphasising environmental preservation and community well-being.
+                                We prioritise effective wastewater treatment for a sustainable future, emphasising
+                                environmental preservation and community well-being.
                             </p>
                             <a href="#" class="fab fa-facebook-f rounded-icon bg-icon fs-16" title="facebook"></a>
                             <a href="#" class="fab fa-twitter rounded-icon bg-icon fs-16" title="telegram"></a>
                             <a href="#" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
                             <a href="#" class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
-                            <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30">
-                            </div>
+                            <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"></div>
                         </div>
 
                         <div class="col-lg-4 col-md-12 ls order-3 order-lg-2 footer-special-column text-center animate"
@@ -694,8 +512,8 @@
                                     <div class="row c-mb-10 c-gutter-10">
                                         <div class="col-lg-12 text-center">
                                             <div class="form-group has-placeholder">
-                                                <label for="name22335x5553">Full
-                                                    Name <span class="required">*</span></label>
+                                                <label for="name22335x5553">Full Name <span
+                                                        class="required">*</span></label>
                                                 <input type="text" aria-required="true" size="30" value="" name="name"
                                                     id="name22335x5553" class="form-control" placeholder="Full Name">
                                             </div>
@@ -704,8 +522,8 @@
                                     <div class="row c-mb-10 c-gutter-10">
                                         <div class="col-lg-12 text-center">
                                             <div class="form-group has-placeholder">
-                                                <label for="name22335x5553">Email
-                                                    Id <span class="required">*</span></label>
+                                                <label for="name22335x5553">Email Id <span
+                                                        class="required">*</span></label>
                                                 <input type="email" aria-required="true" value="" name="name"
                                                     id="name223355553" class="form-control" placeholder="Email">
                                             </div>
@@ -714,8 +532,8 @@
                                     <div class="row c-mb-10 c-gutter-10">
                                         <div class="col-lg-12 text-center">
                                             <div class="form-group has-placeholder">
-                                                <label for="name223355553">Phone
-                                                    Number <span class="required">*</span></label>
+                                                <label for="name223355553">Phone Number <span
+                                                        class="required">*</span></label>
 
                                                 <input type="text" aria-required="true" size="30" value="" name="name"
                                                     id="name223355553" class="form-control" placeholder="Phone Number">
@@ -743,15 +561,12 @@
                                     </div>
                                 </form>
                             </div>
-                            <h6 class="fs-12 text-uppercase">&copy; Copyright
-                                <span class="copyright_year">2023 by
+                            <h6 class="fs-12 text-uppercase">&copy; Copyright <span class="copyright_year">2023 by
                                     Vijetha</span> <br> <br>
-                                Powered By Hexira Digital
-                            </h6>
+                                Powered By Hexira Digital</h6>
                         </div>
                         <div class="col-lg-4 col-md-6 order-2 order-lg-3 animate" data-animation="fadeInUp">
-                            <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90">
-                            </div>
+                            <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90"></div>
                             <div class="widget widget_icons_list">
                                 <ul>
                                     <li class="icon-inline ">
@@ -773,11 +588,8 @@
                                             <i class="fas fa-map-marker-alt"></i>
                                         </div>
                                         <p>
-                                            #153, First Floor, 6th Main Road,
-                                            7th Cross, Vijayanagar 2nd stage,
-                                            Hampi
-                                            Nagar, RPC Layout, Bengaluru,
-                                            Karnataka 560040
+                                            #153, First Floor, 6th Main Road, 7th Cross, Vijayanagar 2nd stage, Hampi
+                                            Nagar, RPC Layout, Bengaluru, Karnataka 560040
                                         </p>
                                     </li>
                                     <li class="icon-inline">
@@ -792,8 +604,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30">
-                            </div>
+                            <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"></div>
                         </div>
                     </div>
                 </div>
@@ -806,10 +617,10 @@
 
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="../js/compressed.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="../js/switcher.js"></script>
-    <script src="../js/whatsapp-chatBot.js"></script>
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/switcher.js"></script>
+    <script src="js/whatsapp-chatBot.js"></script>
 
 </body>
 
