@@ -31970,3 +31970,24 @@ img.absolute_image {
 .justifyText{
     text-align: justify !important;
 }
+
+.businees_core{
+    height: 340px;
+}
+
+.about_background{
+    background-image: url(../images/about_us_banner.png);
+    background-size: cover
+}
+
+.allproductBorder{
+    height: 90px;
+}
+
+.borderWithText{
+    height: 220px;
+}
+
+.borderWithSmallText{
+    height: 150px;
+}
