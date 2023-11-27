@@ -244,9 +244,12 @@
   // window load event
 
   $(window).on("load", function () {
-    if ($(".preloader").length) {
-      $(".preloader").fadeOut();
-    }
+    setInterval(()=>{
+      if ($(".preloader").length) {
+        $(".preloader").fadeOut();
+      }
+    }, 1000)
+  
 
     // swiper slider
     const swiperElm = document.querySelectorAll(".thm-swiper__slider");
@@ -287,7 +290,7 @@
           delay: 5000
         },
         pagination: {
-          el: "#testimonials-one__swiper-pagination",
+          el: "#custom_testimonials_pagination",
           type: "bullets",
           clickable: true
         },
